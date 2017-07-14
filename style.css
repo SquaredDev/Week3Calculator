@@ -1,71 +1,162 @@
-* {
-  background-color: pink;
+* {}
+
+#wrapper {
+  text-align: center;
 }
 
-#wrapper
+#calcMain{}
 
-#calcMain
+#row1{}
 
-#row1
+#display {
+  height: 100px;
+  width: 400px;
+}
 
-#display
+#row2{}
 
-#row2
+#number7 {
+  height: 100px;
+  width: 100px;
+}
 
-#number7
+#number8 {
+  height: 100px;
+  width: 100px;
+}
 
-#number8
+#number9 {
+  height: 100px;
+  width: 100px;
+}
 
-#number9
-
-#operatorDiv
+#operatorDiv {
+  height: 100px;
+  width: 100px;
+}
 
 #row3
 
-#number4
+#number4  {
+  height: 100px;
+  width: 100px;
+}
 
-#number5
+#number5 {
+  height: 100px;
+  width: 100px;
+}
 
-#number6
+#number6 {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorMult
+#operatorMult {
+  height: 100px;
+  width: 100px;
+}
 
 #row4
 
-#number1
+#number1 {
+  height: 100px;
+  width: 100px;
+}
 
-#number2
+#number2 {
+  height: 100px;
+  width: 100px;
+}
 
-#number3
+#number3 {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorSub
+#operatorSub {
+  height: 100px;
+  width: 100px;
+}
 
-#row5
+#row5{}
 
-#number0
+#number0 {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorEqu
+#operatorDec {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorAdd
+#operatorEqu {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorClear
+#operatorAdd {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorPast
+#row6 {
+  margin-bottom: 200px;
+}
 
-#operatorModulo
+#operatorClear {
+  height: 100px;
+  width: 100px;
+}
 
-#operatorSQRt
+#operatorPast {
+  height: 100px;
+  width: 100px;
+}
 
-.row
+#operatorModulo {
+  height: 100px;
+  width: 100px;
+}
 
-.operator
+#operatorSQRt {
+  height: 100px;
+  width: 100px;
+}
 
-.number
+.row {
+  float: left;
+  width: 100%;
+  justify-content: center;
+}
 
-.button
+.row div {
+  float: left;
+}
 
-.display
+.operator{}
 
-h1
+.number{}
 
-div
+.button{}
+
+.sButton {
+  height: 100%;
+  width: 100%;
+}
+
+.mButton {
+  height: 100%;
+  width: 100%;
+}
+
+.display{}
+
+body {}
+
+h1{}
+
+div{}
+
+input {}
