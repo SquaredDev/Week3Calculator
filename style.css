@@ -4,7 +4,9 @@
   text-align: center;
 }
 
-#calcMain{}
+#calcMain{
+  margin: auto;
+}
 
 #row1{}
 
