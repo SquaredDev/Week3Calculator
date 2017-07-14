@@ -11,6 +11,7 @@
 #display {
   height: 100px;
   width: 400px;
+  background-color: grey;
 }
 
 #row2{}
@@ -20,20 +21,28 @@
   width: 100px;
 }
 
+#number7B {}
+
 #number8 {
   height: 100px;
   width: 100px;
 }
+
+#number8B {}
 
 #number9 {
   height: 100px;
   width: 100px;
 }
 
+#number9B {}
+
 #operatorDiv {
   height: 100px;
   width: 100px;
 }
+
+#operatorDivB {}
 
 #row3
 
@@ -42,20 +51,28 @@
   width: 100px;
 }
 
+#number4B {}
+
 #number5 {
   height: 100px;
   width: 100px;
 }
+
+#number5B {}
 
 #number6 {
   height: 100px;
   width: 100px;
 }
 
+#number6B {}
+
 #operatorMult {
   height: 100px;
   width: 100px;
 }
+
+#operatorMultB {}
 
 #row4
 
@@ -64,20 +81,28 @@
   width: 100px;
 }
 
+#number1B {}
+
 #number2 {
   height: 100px;
   width: 100px;
 }
+
+#number2B {}
 
 #number3 {
   height: 100px;
   width: 100px;
 }
 
+#number3B {}
+
 #operatorSub {
   height: 100px;
   width: 100px;
 }
+
+#operatorSubB {}
 
 #row5{}
 
@@ -86,20 +111,28 @@
   width: 100px;
 }
 
+#number0B {}
+
 #operatorDec {
   height: 100px;
   width: 100px;
 }
+
+#operatorDecB {}
 
 #operatorEqu {
   height: 100px;
   width: 100px;
 }
 
+#operatorEquB {}
+
 #operatorAdd {
   height: 100px;
   width: 100px;
 }
+
+#operatorAddB {}
 
 #row6 {
   margin-bottom: 200px;
@@ -110,20 +143,28 @@
   width: 100px;
 }
 
+#operatorClearB {}
+
 #operatorPast {
   height: 100px;
   width: 100px;
 }
+
+#operatorPastB {}
 
 #operatorModulo {
   height: 100px;
   width: 100px;
 }
 
+#operatorModuloB {}
+
 #operatorSQRt {
   height: 100px;
   width: 100px;
 }
+
+#operatorSQRtB {}
 
 .row {
   float: left;
@@ -159,4 +200,11 @@ h1{}
 
 div{}
 
-input {}
+input {
+  height: 100px;
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {}
