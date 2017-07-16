@@ -1,5 +1,6 @@
 * {
   font-family: arial, sans-serif;
+  justify-content: center;
 }
 
 #wrapper {
@@ -9,6 +10,8 @@
 #calcMain{
   margin: auto;
   font-size: 20px;
+  justify-content: center;
+  width: 420px;
 }
 
 #row1{}
@@ -16,9 +19,10 @@
 #display {
   height: 100px;
   width: 400px;
-  background-color: rgb(216, 216, 216);
-  border-radius: 10px;
-  margin: 5px;
+  background-color: rgb(87, 170, 70);
+  color: white;
+  line-height: 50px;
+  border-radius: 5px;
 }
 
 #row2{}
@@ -28,28 +32,40 @@
   width: 100px;
 }
 
-#number7B {}
+#number7B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number8 {
   height: 100px;
   width: 100px;
 }
 
-#number8B {}
+#number8B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number9 {
   height: 100px;
   width: 100px;
 }
 
-#number9B {}
+#number9B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorDiv {
   height: 100px;
   width: 100px;
+
 }
 
-#operatorDivB {}
+#operatorDivB {
+  background: rgb(118, 185, 106)
+}
 
 #row3
 
@@ -58,28 +74,39 @@
   width: 100px;
 }
 
-#number4B {}
+#number4B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number5 {
   height: 100px;
   width: 100px;
 }
 
-#number5B {}
+#number5B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number6 {
   height: 100px;
   width: 100px;
 }
 
-#number6B {}
+#number6B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorMult {
   height: 100px;
   width: 100px;
 }
 
-#operatorMultB {}
+#operatorMultB {
+  background: rgb(118, 185, 106)
+}
 
 #row4
 
@@ -88,28 +115,39 @@
   width: 100px;
 }
 
-#number1B {}
+#number1B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number2 {
   height: 100px;
   width: 100px;
 }
 
-#number2B {}
+#number2B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #number3 {
   height: 100px;
   width: 100px;
 }
 
-#number3B {}
+#number3B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorSub {
   height: 100px;
   width: 100px;
 }
 
-#operatorSubB {}
+#operatorSubB {
+  background: rgb(118, 185, 106)
+}
 
 #row5{}
 
@@ -118,28 +156,39 @@
   width: 100px;
 }
 
-#number0B {}
+#number0B {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorDec {
   height: 100px;
   width: 100px;
 }
 
-#operatorDecB {}
+#operatorDecB {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorEqu {
   height: 100px;
   width: 100px;
 }
 
-#operatorEquB {}
+#operatorEquB {
+  background-color: rgb(87, 170, 70);
+  color: white;
+}
 
 #operatorAdd {
   height: 100px;
   width: 100px;
 }
 
-#operatorAddB {}
+#operatorAddB {
+  background: rgb(118, 185, 106)
+}
 
 #row6 {}
 
@@ -148,32 +197,40 @@
   width: 100px;
 }
 
-#operatorClearB {}
+#operatorClearB {
+  background: rgb(118, 185, 106)
+}
 
 #operatorPast {
   height: 100px;
   width: 100px;
 }
 
-#operatorPastB {}
+#operatorPastB {
+  background: rgb(118, 185, 106)
+}
 
 #operatorModulo {
   height: 100px;
   width: 100px;
 }
 
-#operatorModuloB {}
+#operatorModuloB {
+  background: rgb(118, 185, 106)
+}
 
 #operatorSQRt {
   height: 100px;
   width: 100px;
 }
 
-#operatorSQRtB {}
+#operatorSQRtB {
+  background: rgb(118, 185, 106)
+}
 
 .row {
-  float: left;
-  width: 100%;
+  display: inline-block;
+  /*width: 100%;*/
   justify-content: center;
 }
 
@@ -213,18 +270,11 @@ input {
 button {
   font-size: 20px;
   font-weight: 200;
-  border-radius: 10px;
-  margin: 5px;
+  border-radius: 5px;
 }
 
 input {
   font-size: 20px;
   font-weight: 200;
-  border-radius: 10px;
-  margin: 5px;
-}
-
-.noShow {
-  position: relative;
-  margin-top: -65px;
+  border-radius: 5px;
 }
