@@ -7,8 +7,6 @@ let displayB = document.getElementById('displayB')
 let clear = document.getElementById('operatorClearB')
 
 input.addEventListener('click', function(e) {
-
-
   let output = e.target.innerHTML
   displayB.innerHTML += output
 
@@ -16,10 +14,12 @@ input.addEventListener('click', function(e) {
   let buffer = ''
   let equal = document.getElementById('operatorEquB')
 
-  clear.addEventListener('click', function wipe(e) {
+  equal.addEventListener('click', function (e) {
+    buffer = eval(displayB.innerHTML)
     displayB.innerHTML = buffer
   })
 
-
-
+  clear.addEventListener('click', function wipe() {
+    displayB.innerHTML = ''
+  })
 })
