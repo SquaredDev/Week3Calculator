@@ -228,6 +228,14 @@
   background: rgb(118, 185, 106)
 }
 
+#history {
+  display: flex;
+  background: grey;
+  width: 400px;
+  margin: auto;
+  color: rgb(118, 185, 106)
+}
+
 .row {
   display: inline-block;
   /*width: 100%;*/
