@@ -4,8 +4,22 @@ console.log('Week 3 Project');
 let input = document.getElementById('calcMain')
 
 let displayB = document.getElementById('displayB')
+let clear = document.getElementById('operatorClearB')
 
 input.addEventListener('click', function(e) {
+
+
   let output = e.target.innerHTML
   displayB.innerHTML += output
+
+  let history = document.getElementById('operatorPastB')
+  let buffer = ''
+  let equal = document.getElementById('operatorEquB')
+
+  clear.addEventListener('click', function wipe(e) {
+    displayB.innerHTML = buffer
+  })
+
+
+
 })
