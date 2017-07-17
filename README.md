@@ -37,10 +37,10 @@ Hard Mode
 You should find the above project challenging, however here are extra features you should attempt to add in.
 
 Chain complex calculations.
-Ex: 5 + 5 - 4 / 10
-Take into account order of operation
-You'll need a way to manage state if you do this
-Add a button to calculate the Modulo of 2 numbers
-Add a button to calculate the Square Root of numbers
-Add a decimal button
-Keep track of all the calculations so that you can scroll back through them
+Ex: 5 + 5 - 4 / 10                                    //Done
+Take into account order of operation                  //done
+You'll need a way to manage state if you do this      //done
+Add a button to calculate the Modulo of 2 numbers     //done
+Add a button to calculate the Square Root of numbers  //buggy and removed
+Add a decimal button                                  //done
+Keep track of all the calculations so that you can scroll back through them   //buggy and removed
