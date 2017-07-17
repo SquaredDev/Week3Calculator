@@ -11,28 +11,12 @@ input.addEventListener('click', function(e) {
   let buffer = ''
   let equal = document.getElementById('operatorEquB')
   equal.addEventListener('click', function (e) {
-    // hLog += displayB.innerHTML + '\n' + ' is '
     buffer = eval(displayB.innerHTML)
-    displayB.innerHTML = buffer
-  })
-
-  let sqrtB = document.getElementById('operatorSQRtB')
-  sqrtB.addEventListener('click', function (e) {
-    // hLog += 'Square Root of ' + displayB.innerHTML + ' is '
-    buffer = eval(displayB.innerHTML)
-    buffer = Math.sqrt(displayB.innerHTML)
     displayB.innerHTML = buffer
   })
 
   let clear = document.getElementById('operatorClearB')
   clear.addEventListener('click', function wipe() {
-    // hLog += displayB.innerHTML + '\n'
     displayB.innerHTML = ''
   })
-  // let hLog = 'test'
-  //
-  // let history = document.getElementById('operatorPastB'){
-  //   hLog = ''
-  //   history.innerHTML = hLog
-  // }
 })

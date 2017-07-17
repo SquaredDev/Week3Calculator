@@ -202,12 +202,12 @@
   background: rgb(118, 185, 106)
 }
 
-#operatorPast {
+#operatorLPar {
   height: 100px;
   width: 100px;
 }
 
-#operatorPastB {
+#operatorLParB {
   background: rgb(118, 185, 106)
 }
 
@@ -220,12 +220,12 @@
   background: rgb(118, 185, 106)
 }
 
-#operatorSQRt {
+#operatorRPar {
   height: 100px;
   width: 100px;
 }
 
-#operatorSQRtB {
+#operatorRParB {
   background: rgb(118, 185, 106)
 }
 
