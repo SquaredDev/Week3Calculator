@@ -38,6 +38,10 @@
   color: white;
 }
 
+#number7B:hover {
+  color: red;
+}
+
 #number8 {
   height: 100px;
   width: 100px;
@@ -48,6 +52,10 @@
   color: white;
 }
 
+#number8B:hover {
+  color: red;
+}
+
 #number9 {
   height: 100px;
   width: 100px;
@@ -56,6 +64,10 @@
 #number9B {
   background-color: rgb(87, 170, 70);
   color: white;
+}
+
+#number9B:hover {
+  color: red;
 }
 
 #operatorDiv {
@@ -80,6 +92,10 @@
   color: white;
 }
 
+#number4B:hover {
+  color: red;
+}
+
 #number5 {
   height: 100px;
   width: 100px;
@@ -90,6 +106,10 @@
   color: white;
 }
 
+#number5B:hover {
+  color: red;
+}
+
 #number6 {
   height: 100px;
   width: 100px;
@@ -98,6 +118,10 @@
 #number6B {
   background-color: rgb(87, 170, 70);
   color: white;
+}
+
+#number6B:hover {
+  color: red;
 }
 
 #operatorMult {
@@ -121,6 +145,10 @@
   color: white;
 }
 
+#number1B:hover {
+  color: red;
+}
+
 #number2 {
   height: 100px;
   width: 100px;
@@ -131,6 +159,10 @@
   color: white;
 }
 
+#number2B:hover {
+  color: red;
+}
+
 #number3 {
   height: 100px;
   width: 100px;
@@ -139,6 +171,10 @@
 #number3B {
   background-color: rgb(87, 170, 70);
   color: white;
+}
+
+#number3B:hover {
+  color: red;
 }
 
 #operatorSub {
@@ -162,6 +198,10 @@
   color: white;
 }
 
+#number0B:hover {
+  color: red;
+}
+
 #operatorDec {
   height: 100px;
   width: 100px;
@@ -172,6 +212,10 @@
   color: white;
 }
 
+#operatorDecB:hover {
+  color: red;
+}
+
 #operatorEqu {
   height: 100px;
   width: 100px;
@@ -180,6 +224,10 @@
 #operatorEquB {
   background-color: rgb(87, 170, 70);
   color: white;
+}
+
+#operatorEquB:hover {
+  color: red;
 }
 
 #operatorAdd {
@@ -258,6 +306,10 @@
   width: 100%;
 }
 
+.sButton:hover {
+  color: red;
+}
+
 .mButton {
   height: 100%;
   width: 100%;
@@ -267,7 +319,10 @@ body {}
 
 h1{}
 
-div{}
+div{
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
 
 input {
   height: 100px;
