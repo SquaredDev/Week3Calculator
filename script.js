@@ -1,5 +1,3 @@
-console.log('Week 3 Project');
-
 // #calcMain
 let input = document.getElementById('calcMain')
 let displayB = document.getElementById('displayB')
@@ -14,9 +12,9 @@ input.addEventListener('click', function(e) {
     buffer = eval(displayB.innerHTML)
     displayB.innerHTML = buffer
   })
+})
 
-  let clear = document.getElementById('operatorClearB')
-  clear.addEventListener('click', function wipe() {
-    displayB.innerHTML = ''
-  })
+let clear = document.getElementById('operatorClearB')
+clear.addEventListener('click', function(e) {
+  displayB.innerHTML = ''
 })

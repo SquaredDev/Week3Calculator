@@ -40,6 +40,8 @@
 
 #number7B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number8 {
@@ -54,6 +56,8 @@
 
 #number8B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number9 {
@@ -68,6 +72,8 @@
 
 #number9B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorDiv {
@@ -94,6 +100,8 @@
 
 #number4B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number5 {
@@ -108,6 +116,8 @@
 
 #number5B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number6 {
@@ -122,6 +132,8 @@
 
 #number6B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorMult {
@@ -147,6 +159,8 @@
 
 #number1B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number2 {
@@ -161,6 +175,8 @@
 
 #number2B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #number3 {
@@ -175,6 +191,8 @@
 
 #number3B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorSub {
@@ -200,6 +218,8 @@
 
 #number0B:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorDec {
@@ -214,6 +234,8 @@
 
 #operatorDecB:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorEqu {
@@ -228,6 +250,8 @@
 
 #operatorEquB:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #operatorAdd {
@@ -304,10 +328,13 @@
 .sButton {
   height: 100%;
   width: 100%;
+  outline: 0;
 }
 
 .sButton:hover {
   color: red;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 .mButton {
